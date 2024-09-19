@@ -1,0 +1,40 @@
+.product-card {
+    display: flex; /* Display as flex container */
+    flex-direction: column; /* Arrange items in a column */
+    background-color: #fff;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 16px;
+    width: 250px; /* Adjust width as needed */
+    margin-right: 20px; /* Adjust margin between cards */
+  }
+  
+  .product-image {
+    width: 100%; /* Adjust image width to fill card */
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 12px; /* Adjust margin between image and details */
+  }
+  
+  .product-details {
+    flex: 1; /* Take remaining space */
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #4a5568;
+    margin-top: 8px;
+  }
+  
+  .product-description {
+    font-size: 14px;
+    color: #718096;
+    margin-top: 8px;
+  }
+  
